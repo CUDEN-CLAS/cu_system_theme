@@ -91,3 +91,4 @@ ul.action-menu a:hover, ul.action-menu a.active, ul.action-menu a.active-trail {
 #block-menu-block-site-navigation-menus-3 h2.block-title a { display: block; padding: 10px; background-color: #cfb87c; color: black; font-weight: 600; }
 
 #site-slogan { text-transform: none; }
+.culinks { display:none; }
