@@ -90,5 +90,8 @@ ul.action-menu a:hover, ul.action-menu a.active, ul.action-menu a.active-trail {
 #block-menu-block-site-navigation-menus-3 h2.block-title { font-size: 100%; line-height: 120%; padding: 0; margin: 0; }
 #block-menu-block-site-navigation-menus-3 h2.block-title a { display: block; padding: 10px; background-color: #cfb87c; color: black; font-weight: 600; }
 
-#site-slogan { text-transform: none; }
+#site-slogan { text-transform: uppercase; }
 .culinks { display:none; }
+#name-and-slogan { margin-left: 35px; padding-top: 0px; }
+h1#site-name { font-size: 14px; margin-top: 0px; color: #e0e0e0}
+div#site-name { font-size: 14px; margin-top: 0px; color: #e0e0e0}

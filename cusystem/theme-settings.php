@@ -38,7 +38,7 @@ function cusystem_form_system_theme_settings_alter(&$form, &$form_state) {
 	);
   $form['system_slogan'] = array(
     '#type' => 'textfield',
-    '#title' => 'Campus Name',
-    '#default_value' => theme_get_setting('system_slogan', 'cusystem') ? theme_get_setting('system_slogan', 'cusystem') : 'Boulder | Denver | Colorado Springs | Anschutz Medical Campus',
+    '#title' => 'Department/ College Name',
+    '#default_value' => theme_get_setting('system_slogan', 'cusystem') ? theme_get_setting('system_slogan', 'cusystem') : 'COLLEGE OF LIBERAL ARTS & SCIENCES',
   );
 }
