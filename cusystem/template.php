@@ -34,13 +34,13 @@ function cusystem_preprocess_html(&$vars) {
 }
 
 function cusystem_preprocess_page(&$vars) {
-  $vars['site_slogan'] = theme_get_setting('system_slogan', 'cusystem') ? theme_get_setting('system_slogan', 'cusystem') : 'COLLEGE OF LIBERAL ARTS & SCIENCES';
+  $vars['site_slogan'] = theme_get_setting('system_slogan', 'cusystem') ? theme_get_setting('system_slogan', 'cusystem') : 'University of Colorado <strong>Denver</strong>';
 }
 
 function cusystem_preprocess_region(&$vars) {
   switch ($vars['region']) {
     case 'branding':
-      $vars['site_slogan'] = theme_get_setting('system_slogan', 'cusystem') ? theme_get_setting('system_slogan', 'cusystem') : 'COLLEGE OF LIBERAL ARTS & SCIENCES';
+      $vars['site_slogan'] = theme_get_setting('system_slogan', 'cusystem') ? theme_get_setting('system_slogan', 'cusystem') : 'University of Colorado <strong>Denver</strong>';
 
 
       $vars['print_logo'] = '';
